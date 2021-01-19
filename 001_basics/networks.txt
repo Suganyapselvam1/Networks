@@ -9,6 +9,30 @@ Open System Interconnect Model:(OSI Model)
 3. Network layer - packet - ip(internet protocol)
     It is responsbile of trasmitting the packet to the destination from source.
 4. Transport layer - segment - TCP(Transmission control protocol)/UDP User datagram protocol
-5. Session layer - 
+5. Session layer - ICA protocal
 6. Presentation layer - ASCII
 7. Application layer - HTTP
+
+Protocals and Port Numbers:
+Application Layer of Protocols:
+    Data Transfer Protocols
+        Transferring Data:HTTP or HTTPs => (Hyper Text Transfer Protocol):80 or(Hyper Text Transfer Protocol secure):443
+        File Transfer:FTP,sFTP,TFTP => (File Transfer Protocals):20 21,(secure File Transfer Protocals):22,(Trivial File Transfer Protocol):69,SMB(Server Message Block):445
+        Email:(Server To Client):POP3(110/995) IMAP(143,993),(Client To Server):SMTP(25,465)
+    Authentiation Protocols:
+        LDAP - Lightweight Directory Access protocol    - 389
+        LDAPs - Lightweight Directory Access protocol secure    - 636
+    Network Service Protocols:
+        DHCP(Dynamic Host Configuration Protocol) server : send a IP Address,DNS,Subnet,etc..
+        DNS(Domain Name System): It used to resolve the Ip address for given host name
+        NTP (Network Time Protocol): NTP protocol will give UTC time from server
+    Network Management Protocols
+        TELNET:(23)
+        SSH(secure shell)(22): it used to connect to another machine. we can exeucte scripts on the remote machine.
+        SNMP - Simple network Management protocol
+        RDP(Remote Desktop Protocol):it used to coneect to the other machine(3389).
+        
+
+    Audio/Visual Protocols:
+        H.323(1720) - Audio/video protocol
+        SIP(Session Initiation Protocol)(5060/5061) -  a signaling protocol used for initiating, maintaining, and terminating real-time sessions that include voice, video and messaging applications
