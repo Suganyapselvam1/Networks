@@ -1,3 +1,14 @@
 What is networks?
 A computer network is a group of computers that use a set of common communication protocols for moving information from one device to another.
 
+Open System Interconnect Model:(OSI Model)
+1. Physical layer - bits - twisted cable, fiber optical cable
+    it is underlying cable that transmits the data as bit.(1,0s)
+2. Data link layer - Frames - ethernet
+    Data link layer is responsbile for encoding the frames into bits and trasmit. After the trasmission, the data link layer will decode the bits into frames again.
+3. Network layer - packet - ip(internet protocol)
+    It is responsbile of trasmitting the packet to the destination from source.
+4. Transport layer - segment - TCP(Transmission control protocol)/UDP User datagram protocol
+5. Session layer - 
+6. Presentation layer - ASCII
+7. Application layer - HTTP
